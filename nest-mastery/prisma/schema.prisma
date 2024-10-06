@@ -15,7 +15,7 @@ datasource db {
 
 
 model User {
-  int Int @default(autoincrement()) @id
+  id Int @default(autoincrement()) @id
   username String @unique
   displayName String? @default("")
 }
